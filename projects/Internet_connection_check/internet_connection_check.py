@@ -3,6 +3,7 @@ from requests.exceptions import ConnectionError
 
 def internet_connection_test():
 	url = 'https://www.google.com/'
+	# url = 'https://github.com/Python-World/python-mini-projects/tree/master/projects/Internet_connection_check'
 	print(f'Attempting to connect to {url} to determine internet connection status.')
 	
 	try:
