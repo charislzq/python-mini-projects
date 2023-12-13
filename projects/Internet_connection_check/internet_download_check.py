@@ -74,6 +74,8 @@ print(f"Download Speed: {download_speed / (1024**2):.2f} Mbps")
 
 # # Get download speed and status code
 # download_speed, status_code = download_speed_test()
+# ### From Wayne: Can use a bigger file size for speed test as your current file is too small
+# # url='https://link.testfile.org/150MB' 
 
 # if download_speed > 0:
 #   print(f'Download speed: {download_speed:.2f} Mbps')
